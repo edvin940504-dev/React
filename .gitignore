@@ -1,15 +1,14 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Test binary, built with `go test -c`
-*.test
+# dependencies
+node_modules
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# testing
+coverage
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# production
+build
+
+# misc
+.DS_Store
+npm-debug.log
